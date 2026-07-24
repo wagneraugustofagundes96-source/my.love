@@ -9,13 +9,15 @@
     <h1>Função</h1>
     <button onclick="mostrarTexto();alterarCor() ">Mostrar Tabuada</button>
     <div id="output"></div>
+    <h1 id="titulo"></h1>
+    <p id="mensagem"></p>
     <script>
         const input = document.getElementById("number")
         function alterarCor(){
             document.body.style.backgroundColor = 'yellow';
         }
         function mostrarTexto(){
-            <h1> Textinho surpresa para o meu amor </h1>
+            document.getElementById("titulo") = "Textinho para meu amor!"
             
         }
     </script>
